@@ -1,0 +1,101 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Arial, sans-serif;
+}
+
+
+body {
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+
+.calculator {
+width: 300px;
+background: #1e1e2f;
+padding: 20px;
+border-radius: 18px;
+box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+}
+
+
+.hisob {
+background: #111;
+color: #00ff99;
+height: 60px;
+font-size: 28px;
+padding: 10px;
+text-align: right;
+border-radius: 10px;
+margin-bottom: 15px;
+overflow: hidden;
+}
+
+
+.buttons {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 10px;
+}
+
+
+button {
+height: 55px;
+border: none;
+border-radius: 12px;
+font-size: 20px;
+cursor: pointer;
+background: #2a2a40;
+color: #fff;
+transition: 0.2s;
+}
+
+
+button:hover {
+background: #3a3a55;
+}
+
+
+.clear {
+background: #f44336;
+}
+
+
+.bolish,
+.kop,
+.ayir,
+.qosh {
+background: #ff9800;
+}
+
+
+.teng {
+grid-column: span 2;
+background: #4caf50;
+}
+
+
+/* Responsive */
+@media (max-width: 400px) {
+.calculator {
+width: 90%;
+padding: 15px;
+}
+
+
+.hisob {
+font-size: 24px;
+height: 50px;
+}
+
+
+button {
+height: 50px;
+font-size: 18px;
+}
+}
