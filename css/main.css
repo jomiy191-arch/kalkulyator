@@ -15,7 +15,7 @@ body {
 
 .calculator {
   width: 330px;
-  background: #a0a0f1;
+  background: #1f1f2e;
   padding: 30px;
   border-radius: 30px;
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
@@ -23,7 +23,7 @@ body {
 
 .hisob {
   background: rgba(255, 255, 255, 0.05);
-  color: #00ffff;
+  color: #ffffff;
   height: 70px;
   font-size: 32px;
   padding: 15px;
