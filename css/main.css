@@ -23,7 +23,7 @@ body {
 
 .hisob {
   background: rgba(255, 255, 255, 0.05);
-  color: #ffffff;
+  color: #00ffff;
   height: 70px;
   font-size: 32px;
   padding: 15px;
@@ -47,7 +47,7 @@ button {
   font-size: 22px;
   cursor: pointer;
   background: #2a2a3d;
-  color: #fff;
+  color: #000000;
   transition: all 0.2s ease-in-out;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 }
